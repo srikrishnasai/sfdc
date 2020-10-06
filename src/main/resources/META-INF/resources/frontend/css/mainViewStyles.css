@@ -1,0 +1,243 @@
+.contentLayout {
+	width: 100%;
+	height: 100%;
+}
+
+.hamburger {
+	color: white;
+	position: absolute;
+	top: 30px;
+}
+
+.leftLayout {
+	position: relative;
+	margin: 0 !important;
+	width: 100% !important;
+	border-right: 1px solid gray;
+	padding-right: 0px;
+	height: 100%;
+	padding-left: 0px;
+	z-index: 1;
+}
+
+.sidenav {
+	background-color: #414B56;
+	width: 235px;
+	height: 100%;
+	background-size: contain;
+	background-attachment: fixed;
+	opacity: 0.9
+}
+
+.navButton {
+	width: 100%;
+	margin: 0;
+	height: 50px;
+	cursor: pointer;
+	display: grid;
+	justify-content: left !important;
+}
+
+.navButton iron-icon {
+	font-weight: 400;
+	font-size: 14px;
+	color: #9ca5af;
+	margin-right: 13px !important;
+}
+
+.navButton span {
+	font-weight: 400;
+	font-size: 14px;
+	color: #9ca5af !important;
+}
+
+.active {
+	background: #3a434d !important;
+}
+
+.active span, .active iron-icon {
+	color: white !important;
+}
+
+.navButton:hover iron-icon {
+	color: white !important;
+}
+
+.navButton:hover span {
+	color: white !important;
+}
+
+.rightLayout {
+	position: relative;
+	height: 100%;
+	overflow-y: scroll;
+	align-items: center;
+	/* background-image: linear-gradient(to right, rgba(120, 150, 140, 0.48), rgba(134, 168, 231, 0.25)); */
+}
+
+.config {
+	display: grid;
+	justify-items: center;
+}
+
+.configButton {
+	position: absolute;
+	right: 15px;
+	width: 13%;
+	cursor: pointer;
+}
+
+.configText {
+	position: absolute;
+	left: 15px;
+	width: 30%;
+	font-weight: bold;
+}
+
+.gridStyle {
+	/* position: absolute;
+	top: 66px;
+	right: 15px;
+	left: 30px; 
+	width: 98%; */
+	margin-top: 90px;
+}
+
+.label {
+	color: hsla(214, 42%, 18%, 0.72);
+	font-size: 15px;
+	margin-right: 14px;
+	margin-left: 18px;
+	font-weight: 500;
+}
+
+.label:hover {
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.mappingConfig {
+	position: absolute;
+	top: 80px;
+	right: 15px;
+	left: 30px;
+}
+
+.cursorPointer {
+	cursor: pointer;
+}
+
+h5 {
+	padding-left: 20px;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+	border: none;
+	color: #1676f3;
+	background-color: #f3f5f7;
+	font-size: 15px;
+	font-weight: 500;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+#acsList {
+	height: 250px;
+}
+
+#salesList {
+	height: 250px;
+}
+
+#mapList {
+	height: 250px;
+	word-break: break-word;
+}
+
+.username {
+	padding: 10px;
+	color: white;
+}
+
+.mappingViewRightLayout {
+	display: block;
+	overflow-y: scroll;
+	padding-top: 0px;
+}
+
+.dashBoardButton {
+	width: 13%;
+	float: left;
+	cursor: pointer;
+}
+
+.buttonsContainer {
+	margin: 89px 10px 10px 10px;
+	width: 100%;
+}
+
+.float-right {
+	float: right;
+}
+
+.mainViewStyledButton {
+	cursor: pointer;
+	float: right;
+	margin: 0px 10px;
+}
+
+#vaadin-license-validation-notification-vaadin-chart {
+	display: none;
+}
+
+.serverTimeDisplayer {
+	margin-top: 40px;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.styledButton, vaadin-grid-cell-content button {
+	background-color: #00b0ff;
+	color: white;
+	border: none;
+	border-radius: 40px;
+}
+
+vaadin-form-item label {
+	width: 200px;
+	display: block;
+} 
+
+.acsCustomFormLayout, mappingViewCustomFormLayout {
+	margin-top: 25px;
+}
+.acsCustomFormLayout vaadin-text-field, .acsCustomFormLayout vaadin-password-field {
+	margin: 15px;
+	width: 45%;
+}
+
+.salesForceCustomFormLayout {
+	margin-top: 10px;
+}
+
+.salesForceCustomFormLayout vaadin-text-field, .salesForceCustomFormLayout vaadin-password-field {
+	margin: 8px 15px;
+	width: 45%;
+}
+
+.mappingViewCustomFormLayout vaadin-text-field, .mappingViewCustomFormLayout vaadin-combo-box {
+	margin: 25px;
+}
+
+.mappingConfigViewLabel {
+	left: 15px;
+	width: 30%;
+	font-weight: bold;	
+}
+
+vaadin-list-box vaadin-item span {
+	width: 200px;
+	word-break: break-word;
+    display: block;
+}
